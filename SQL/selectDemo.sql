@@ -80,8 +80,9 @@ SELECT employeeNumber,lastname, firstname,jobTitle,email FROM employees;
 
 SELECT employeeNumber,lastname, firstname,jobTitle,email FROM employees WHERE jobTitle='sales rep';
 
+SELECT * FROM orderdetails;
 -- Display orders with quantity greater then 50
-
+SELECT * FROM orderdetails WHERE quantityOrdered>=50;
 
 /* The search_condition is a combination of one or more predicates using the 
 logical operator AND, OR and NOT.
@@ -94,15 +95,17 @@ NOT - Negate the Condition .
 /* Example uses the WHERE clause to find employees whose job titles are 
 Sales Rep and office codes are 1 */
 
+SELECT employeeNumber, lastname, firstname, jobTitle,email,officeCode FROM employees 
+WHERE jobTitle='Sales Rep' AND officeCode=1;
 
 
 
 -- OR operator
  -- query finds employees whose job title is Sales Rep or employees who 
  -- locate the office with office code 1:
-
-	
-		
+ 
+SELECT employeeNumber, lastname, firstname, jobTitle,email,officeCode FROM employees 
+WHERE jobTitle='Sales Rep' OR  officeCode=1;	
 		
 -- The BETWEEN operator returns TRUE if a value is in a range of values:
  
@@ -110,11 +113,13 @@ Sales Rep and office codes are 1 */
  
  -- query finds employees who locate in offices whose office code is from 1 to 3:
 
-
+SELECT employeeNumber, lastname, firstname, jobTitle,email,officeCode FROM employees 
+WHERE officeCode BETWEEN 1 AND 3;	
 
 -- query to list orders done in the first quarter of 2004 .
+SELECT * FROM orders;
 
-
+SELECT * FROM orders WHERE shippedDate BETWEEN '2004-01-01' AND '2004-03-31';
 # MySQL WHERE with the LIKE operator
  
  /* The LIKE operator evaluates to TRUE if a value matches a specified pattern. 
@@ -124,14 +129,28 @@ Sales Rep and office codes are 1 */
  
  -- query finds employees whose last names end with the string 'son':
  
+SELECT employeeNumber, lastname, firstname, jobTitle,email,officeCode FROM employees 
+WHERE lastname LIKE '%son';
+
+SELECT employeeNumber, lastname, firstname, jobTitle,email,officeCode FROM employees 
+WHERE lastname LIKE 'b%';	
  
- 
+SELECT employeeNumber, lastname, firstname, jobTitle,email,officeCode FROM employees 
+WHERE lastname LIKE 'b%' OR firstname LIKE 'd%';
+
+SELECT employeeNumber, lastname, firstname, jobTitle,email,officeCode FROM employees 
+WHERE firstname LIKE '_arry';
+
+SELECT employeeNumber, lastname, firstname, jobTitle,email,officeCode FROM employees 
+WHERE firstname OR lastname LIKE 'f%';
+
 -- ANSI SQL is Case Insensitive
 
 
 
 -- NOT -- Negates the condition
-
+SELECT employeeNumber, lastname, firstname, jobTitle,email,officeCode FROM employees 
+WHERE firstname not LIKE 'A%';
 	
 #MySQL WHERE clause with the IN operator
 
@@ -141,7 +160,11 @@ Sales Rep and office codes are 1 */
 
 -- IN condition is used to help reduce the need to use multiple OR conditions in a 
 -- SELECT, INSERT, UPDATE, or DELETE statement.
+SELECT employeeNumber, lastname, firstname, jobTitle,email,officeCode FROM employees 
+WHERE --officeCode =1 OR officeCode=5 OR officeCode =7;
+officeCode IN(1,5,7) ORDER BY officeCode;
 
+SELECT * FROM customers WHERE contactLastName NOT IN ('taylor','brown');
 
 
 
@@ -155,19 +178,22 @@ Syntax:
 value IS NULL  */ 		
 		
 -- Display employees who doesn't have Managers allocated		
+SELECT employeeNumber, lastname, firstname, jobTitle,email,officeCode FROM employees 
+WHERE reportsTo IS NULL;
 
+SELECT * FROM orders WHERE comments IS NULL;
+SELECT * FROM orders WHERE comments IS not NULL;
 
+SELECT * FROM orders WHERE comments ="";
 
-
-
-
-
+SELECT * FROM customers WHERE phone=0;
+SELECT * FROM customers WHERE phone IS NULL;
 #WHERE clause with comparison operators
 -- >, <, >=, <=, =, <> or != (not equals)
 
+SELECT firstname, lastname, jobTitle FROM employees WHERE jobTitle <> 'sales rep';
 
-
-
+SELECT lastname, firstname, officeCode FROM employees WHERE officeCode>5;
 
 #---------------------------------------------------------------------------------
 #MySQL ORDER BY clause
@@ -183,13 +209,13 @@ ORDER BY
    column2 [ASC|DESC],
    ...;  */
 
-
+SELECT contactlastName, contactFirstName FROM customers;
 
 -- sorts in ascending order
-
+SELECT contactlastName, contactFirstName FROM customers ORDER BY contactlastName;
 
 -- sort in descending order
-
+SELECT contactlastName, contactFirstName FROM customers ORDER BY contactlastName DESC;
 
 
 
