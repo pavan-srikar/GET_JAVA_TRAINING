@@ -217,27 +217,36 @@ SELECT contactlastName, contactFirstName FROM customers ORDER BY contactlastName
 -- sort in descending order
 SELECT contactlastName, contactFirstName FROM customers ORDER BY contactlastName DESC;
 
+SELECT * FROM producats;
 
+SELECT productCode, productName, buyPrice FROM products ORDER BY buyPrice DESC ;
 
 -- Sorting by Relative position in resultSet
-
+SELECT productCode, productName,quantityInStock,buyPrice FROM products ORDER BY 4 DESC ;
 
 -- Multi Level Sorting
 
+SELECT contactLastName, contactFirstName FROM customers
+ORDER BY contactLastName, contactFirstName DESC;
 
 
 
+SELECT jobTitle, firstName FROM employees ORDER BY 1 DESC,2;
 
+SELECT jobTitle,firstName FROM employees ORDER BY jobTitle,firstName;
 
 #  ORDER BY to sort a result set by an expression	
 	
+SELECT orderNumber, orderlinenumber, quantityOrdered, priceEach, quantityOrdered * priceEach FROM orderdetails;
 
-
+SELECT orderNumber, orderlinenumber, quantityOrdered * priceEach FROM orderdetails
+ORDER BY quantityOrdered * priceEach desc;
 
 -- Expressions with alias names
 
+SELECT orderNumber, orderlinenumber,quantityOrdered* priceEach AS 'Total Price' FROM orderdetails;
 
-		
+SELECT orderNumber, orderlinenumber,quantityOrdered* priceEach AS TotalPrice FROM orderdetails ORDER BY TotalPrice desc;
 # ------------------------------------------------------------------------
 # MySQL DISTINCT clause
 
@@ -250,24 +259,36 @@ SELECT contactlastName, contactFirstName FROM customers ORDER BY contactlastName
         FROM
     table_name;  */
 
+SELECT lastname FROM employees ORDER BY lastname;
 
+SELECT DISTINCT lastname FROM employees ORDER BY lastname;
+
+SELECT DISTINCT state FROM customers;
 
 
 -- Distinct with multiple columns
+
+SELECT state,city FROM customers WHERE state IS NOT NULL ORDER BY state,city;
+
+SELECT DISTINCT contactLastName, state,city FROM customers WHERE state IS NOT NULL ORDER BY contactLastName, state, city;
 
 # -------------------------------------------------------------------------------
 # LIMIT clause
 -- is used to retrieve records from one or more tables in a database and limit the number
 --  of records returned based on a limit value.
 
+SELECT * FROM customers;
 
+SELECT * FROM customers LIMIT 5;
+
+SELECT * FROM customers /*order by*/ contactLastName LIMIT 10;
 
 
 
 # The offset keyword allows you to offset the no. of record returned by 
 -- the LIMIT clause.
 
-
+SELECT * FROM customers LIMIT 5 OFFSET 4;
 
 
 # -------------------------------------------------------------------------
@@ -279,7 +300,13 @@ SELECT contactlastName, contactFirstName FROM customers ORDER BY contactlastName
 
  -- Syntax: boolean_expression_1 AND boolean_expression_2
 
+SELECT 1=0 AND 1/1;
 
+SELECT customerName,country, state FROM customers
+	WHERE country='USA' AND state='CA';
+
+SELECT customerName,country, state FROM customers
+	WHERE country='USA' AND state='CA' AND creditlimit > 100000;
 
 
 
@@ -287,7 +314,11 @@ SELECT contactlastName, contactFirstName FROM customers ORDER BY contactlastName
 # either condition is true.
 -- Operator Precedence OR then AND
 
+  SELECT customerName,country, state FROM customers
+	WHERE country='USA' OR country='France';
 
+SELECT customerName,country, state,creditLimit FROM customers
+	WHERE creditlimit > 100000 AND (country='USA' OR country='France');
 
 
 
@@ -304,14 +335,22 @@ SELECT
    [column_1 | expression] AS descriptive_name
 FROM table_name;  */
 
+SELECT CONCAT(lastName,' ',firstName) FROM employees;
 
+SELECT CONCAT(lastName,' ',firstName) AS 'Full Name' FROM employees;
+
+SELECT CONCAT(lastName,' ',firstName) 'Full Name' FROM employees;
+
+SELECT CONCAT(lastName,' ',firstName) AS FullName FROM employees;
 
 
 
 
 -- Alias name for Tables
 
+SELECT * FROM employees e;
 
+SELECT e.firstName, e.lastName FROM employess e ORDER BY e.firstName;
 
 
 #----------------------------------------------------------------------------
@@ -331,18 +370,33 @@ FROM table
 WHERE where_conditions
 GROUP BY c1 , c2,...,cn; */
 
+SELECT STATUS FROM orders;
+
+SELECT STATUS FROM orders GROUP BY STATUS;
+
+SELECT STATUS ,COUNT(*) AS Total FROM orders GROUP BY STATUS;
+
+SELECT COUNT(*) 'Total Orders' FROM orders;
+
+SELECT quantityInStock FROM products;
+
+SELECT SUM(quantityInStock) 'Total Quantity' FROM products;
+
+SELECT productLine, quantityInStock FROM products;
+
+SELECT productLine,COUNT( quantityInStock) FROM products GROUP BY productLine;
+
+SELECT jobTitle,COUNT(*) AS 'Count' FROM employees GROUP BY jobTitle;
 
 
-
-
-
-
+SELECT * FROM employees;
+-- having clause is used to apply filter in group by clause
+SELECT lastName FROM employees GROUP BY lastName HAVING COUNT(lastName)>2;
 
  /* The GROUP BY clause is often used with an aggregate function to perform calculation and 
 return a single value for each subgroup. */
 
 -- Query to find sum of quantity of Products
-
 
  
 
@@ -353,7 +407,20 @@ return a single value for each subgroup. */
 
  -- Design a query using max function to return name of the productLine
  -- and maximum buyPrice for each ProductLine
+ SELECT productline, buyprice FROM products;
  
+ SELECT productline, MAX(buyprice) FROM products GROUP BY productline;
+ SELECT MAX(buyprice) FROM products;
+ 
+ SELECT productline,buyprice FROM 
+ 	products WHERE buyprice=( SELECT MAX(buyprice) FROM products);
+ -- Display total no of sales rep
+ 
+ SELECT jobTitle, COUNT(*) AS total FROM employees WHERE 
+ jobTitle='Sales Rep' -- GROUP BY jobTitle ;
+ 
+ SELECT jobTitle, COUNT(*) AS total FROM employees
+ 	 GROUP BY jobTitle ;
  
  
  
@@ -388,9 +455,12 @@ SELECT LENGTH('   SQL');
 
 SELECT SUBSTR('JDBC Programming',1,2); -- Returns part of a string - specific pos,no. of characters
 
+SELECT UPPER(customerName) customerName, city FROM customers;
 
+SELECT LOWER(customerName) CustomerName,MID(city,1,3) ShortCity,city FROM customers;
 
-
+SELECT UPPER(CONCAT(contactFirstName,' ',contactLastName)) AS 'Full Name',
+	REVERSE (country), REPLACE(state,'NY','CC') FROM customers;
 
 
 
