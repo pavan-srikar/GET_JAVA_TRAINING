@@ -1,0 +1,20 @@
+CREATE DATABASE sonic;
+
+USE sonic;
+
+CREATE TABLE cars(id INT PRIMARY KEY AUTO_INCREMENT, NAME VARCHAR(225), price INTEGER);
+
+INSERT INTO cars(NAME,price) VALUES('Audi',52642);
+INSERT INTO cars(NAME,price) VALUES('Mercedis',57127);
+INSERT INTO cars(NAME,price) VALUES('Skoda',9000);
+INSERT INTO cars(NAME,price) VALUES('Volvo',29000);
+INSERT INTO cars(NAME,price) VALUES('skibidi',67000);
+INSERT INTO cars(NAME,price) VALUES('Bently',35642);
+INSERT INTO cars(NAME,price) VALUES('Citron',19642);
+INSERT INTO cars(NAME,price) VALUES('Hummer',41400);
+INSERT INTO cars(NAME,price) VALUES('Tata',15000);
+INSERT INTO cars(NAME,price) VALUES('Buggati',69642);
+
+SELECT * FROM cars;
+
+SHOW TABLES;
