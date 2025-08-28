@@ -496,8 +496,8 @@ SELECT DAYNAME(NOW()), WEEKDAY(CURRENT_DATE); -- weekday starts from monday -0
 
 -- return the number of orders by day number in 2004.
 
-
-
+SELECT DAY(orderdate) dayofmonth,COUNT(*) from orders where 
+YEAR(orderdate)=2004 GROUP BY dayofmonth ORDER BY DAYOFMONTH;
 
 #Numeric Functions
 
@@ -578,4 +578,10 @@ SELECT FORMAT(1002343,2), FORMAT(1002343.235,2);
 SELECT CONVERT('100',UNSIGNED INTEGER), CONVERT('-100',SIGNED INTEGER);
 
 SELECT CONVERT('2017-12-31',DATE), CONVERT('08:45:59',TIME);
+
+
+
+SELECT * FROM employees;
+
+SELECT * FROM offices;
 		
