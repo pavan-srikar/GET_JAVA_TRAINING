@@ -15,35 +15,35 @@ USE classicmodels;
 DESC customersbackup2025;
 
 INSERT INTO customersbackup2025 VALUES(
-	9999,'Raj Associates','GS','Raj','8765349019','Shri Nilaya',
-	'Down Town Lane','Udupi','Karnataka','574101','India',NULL,50000.00);
+9999, 'Raj Associates','GS', 'Rohit', '5444871236', 'SHri Nilaya',
+  'Down Town Lane', 'Udupi', 'Karnataka', '574101', 'India',NULL, 50000.00);
 
+USE coforgedb;
+SELECT * FROM departments;
+  
 SELECT * FROM customersbackup2025;
 
 SELECT * FROM department;
 
-INSERT INTO department values(100,'Technical');
+INSERT INTO departments values(100,'Technical');
 
-INSERT INTO department values(103,'Production');
+INSERT INTO departments values(103,'Production');
 
-INSERT INTO department values(105,'Travel');
+INSERT INTO departments values(105,'Travel');
 
-SELECT * FROM department;
+SELECT * FROM departments;
 
 -- Insert demo specifying columns fields
 
-DESC department;
+DESC departments;
 
-INSERT INTO department(deptName,fees,email) VALUES('Mech',75000,'mech@vtu.ac.in');
+INSERT INTO departments(deptName,fees,email) VALUES('Mech',75000,'mech@vtu.ac.in');
 
-INSERT INTO department(deptName,fees,email) VALUES('EE',90000,'ee@vtu.ac.in');
+INSERT INTO departments(deptName,fees,email) VALUES('EE',90000,'ee@vtu.ac.in');
 
-INSERT INTO department(deptName,fees,email) VALUES('CSE',100000,'cse@vtu.ac.in');
+INSERT INTO departments(deptName,fees,email) VALUES('CSE',100000,'cse@vtu.ac.in');
 
-SELECT * FROM department;
-
-USE classicmodels;
-USE customersbackup2025;
+SELECT * FROM departments;
 
 /*
 The UPDATE statement updates data in a table. 
@@ -135,7 +135,7 @@ SELECT * FROM customersbackup2025;
 SELECT * FROM customersbackup2025  WHERE country='France'; -- 12 customers
 
 -- Delete customers from France with low 5 Credit Limit
-DELETE FROM customersbackup2025 WHERE country='France'
+DELETE FROM customersbackup2022 WHERE country='France'
 	ORDER BY creditLimit LIMIT 5; -- Without LIMIT it will delete all 12 customers
 
 
@@ -143,9 +143,9 @@ DELETE FROM customersbackup2025 WHERE country='France'
 
 # Drop statement removes the table permanently from database
 
-DROP TABLE employessbackupjune2022;
+DROP TABLE employessbackupjune2025;
 
 SHOW TABLES;
 
-DROP TABLE customersbackup2022;
+
 
