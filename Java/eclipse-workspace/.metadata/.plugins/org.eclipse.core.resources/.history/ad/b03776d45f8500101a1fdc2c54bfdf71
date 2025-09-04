@@ -1,0 +1,27 @@
+package basics;
+
+import java.io.*;
+
+/**
+* Author :Jetty.Srikar
+* Date :Aug 30, 2025
+* Time :10:35:27 AM
+*project : projCoreJava
+*/
+
+public class BufferReaderDemo {
+
+	public static void main(String[] args) {
+		InputStreamReader r=new InputStreamReader(System.in);
+		BufferedReader br=new BufferedReader(r);
+		
+		System.out.println(" Enter your name :");
+		String name = br.readLine();
+		System.out.println(" Enter your age :");
+		int age=Integer.parseInt(br.readLine());
+		
+		System.out.println("Welcome "+ name+", your age is :"+age);
+
+	}
+
+}

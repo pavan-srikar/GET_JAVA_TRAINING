@@ -1,0 +1,25 @@
+package basics;
+
+/**
+ * This program calculates the area of a circle
+ * It demonstrates the use of variables, arithmetic operations,
+ * and console the output in java.
+ * 
+ * @version 1.0
+ */
+public class Area {
+
+	public static void main(String[] args) {
+		double radius = 7.5; //radius of circle
+		double area; //variable to store area
+		final double PI = 3.14159;
+		
+		//Calculate the area to the console
+		area = PI * radius * radius;
+		
+		//Print the area to the console
+		System.out.println("The area of the circle with radius " + radius + "is : " +area);
+		
+	}
+
+}

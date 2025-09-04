@@ -1,0 +1,17 @@
+package oopsdemo1;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 3, 2025
+ * Time :9:42:40 AM
+ *project : projCoreJava
+ */
+
+public class CoforgeEmployeeTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

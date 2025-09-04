@@ -1,0 +1,43 @@
+package oopsdemo3;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 4, 2025
+ * Time :2:37:07 PM
+ *project : projCoreJava
+ */
+class Addition
+{
+	
+	public void add() {
+		System.out.println("Method OverLoading Demo");
+	}
+	public void add(int a, int b) {
+		System.out.println("The Addition of 2 Nos is : "+(a+b));
+	}
+	public void add(double a, double b) {
+		System.out.println("The Addition of 2 float is : "+(a+b));
+	}
+	public void add(int a, int b, int c) {
+		System.out.println("The Addition of 3 Nos is : "+(a+b+c));
+	}
+	public void add(String s1, String s2) {
+		System.out.println("The Addition of 2 Strings is : "+(s1+s2));
+	}
+	
+	
+}
+
+
+
+
+
+public class OverLoadDemo {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

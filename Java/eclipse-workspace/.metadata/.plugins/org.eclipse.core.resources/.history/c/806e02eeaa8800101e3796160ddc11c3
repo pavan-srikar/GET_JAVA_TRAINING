@@ -1,0 +1,33 @@
+package oopsdemo1;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 3, 2025
+ * Time :3:08:45 PM
+ *project : projCoreJava
+ */
+
+class Test{
+	public void finillize() {  //Override finallize() method of object class
+		System.out.println("Object destroyed and garbage collected");
+	}
+}
+
+public class DestructorDemo {
+
+	public static void main(String[] args) {
+		Test t1=new Test();          //Initilize object -- invokes default constructor
+		Test t2=new Test();
+		Test t3=new Test();
+		Test t4=new Test();
+		
+		t1=null;      //deallocate memory  - Objects destrpyed explicitly
+		t2=null;
+		t3=null;
+		t4=null;
+		
+		System.gc();
+		System.out.println("In main method");
+	}
+
+}

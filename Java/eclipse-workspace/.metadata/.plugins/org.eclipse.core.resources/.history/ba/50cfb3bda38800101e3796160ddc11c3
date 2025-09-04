@@ -1,0 +1,17 @@
+package oopsdemo1;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 3, 2025
+ * Time :2:22:27 PM
+ *project : projCoreJava
+ */
+
+public class PersonTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

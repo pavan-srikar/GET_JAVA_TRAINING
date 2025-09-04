@@ -1,0 +1,17 @@
+package oopsdemo2;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 4, 2025
+ * Time :9:58:22 AM
+ *project : projCoreJava
+ */
+
+public class MultiLevel1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

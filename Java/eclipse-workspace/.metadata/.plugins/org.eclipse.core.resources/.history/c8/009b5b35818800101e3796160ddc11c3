@@ -1,0 +1,33 @@
+package oopsdemo1;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 3, 2025
+ * Time :10:00:54 AM
+ *project : projCoreJava
+ */
+
+public class BookTest {
+
+	public static void main(String[] args) {
+		
+		Book b1 = new Book();
+		
+		//Invoke setter methods - Input
+		b1.setBookId(101);
+		b1.setBookName("coding book");
+		b1.setPrice(677);
+		b1.setPublisher("Cambridge");
+		
+		//Invoke getter methods --output
+		System.out.println("********** Book Details **********");
+		b1.display();
+		System.out.println(b1.getBookId()+" "+b1.getBookName()+" "+b1.getPrice()+" "+b1.getPublisher());
+		
+		System.out.println("Discounted price : "+b1.discountPrice());
+		System.out.println(b1); //invokes toString() method
+		
+
+	}
+
+}

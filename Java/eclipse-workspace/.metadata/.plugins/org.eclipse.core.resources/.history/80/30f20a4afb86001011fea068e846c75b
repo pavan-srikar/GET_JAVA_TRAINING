@@ -1,0 +1,16 @@
+package controlflow;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 1, 2025
+ * Time :11:46:34 AM
+ *project : projCoreJava
+ */
+
+public class TurnaryDemo {
+
+	public TurnaryDemo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

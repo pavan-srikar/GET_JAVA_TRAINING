@@ -1,0 +1,50 @@
+package basics;
+
+import java.util.Scanner;
+
+/**
+* Author :Jetty.Srikar
+* Date :Aug 30, 2025
+* Time :9:35:17 AM
+* project : projCoreJava
+*
+* This program does sum and average using scanner inputs
+*/
+
+public class SumAverage {
+
+	public static void main(String[] args) {
+		
+		//Variable declaration
+		int number1,number2,number3,sum;
+		float avg;
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Enter your organization :");
+		String org=scanner.nextLine();
+		//Take input
+		System.out.println("Enter 3 numbers : ");
+		number1=scanner.nextInt();
+		number2=scanner.nextInt();
+		number3=scanner.nextInt();
+		
+		scanner.nextLine(); //pause for next line
+		System.out.println("Enter your name : ");
+		String name=scanner.nextLine();
+		
+		//Process
+		sum=number1+number2+number3;
+		avg=(float)sum/3;
+		
+		//Display Output
+		System.out.println("***********************");
+		System.out.println("The sum of 3 Numbers is : "+sum);
+		System.out.println("The average of 3 numbers is :"+avg);
+		System.out.println("Coded by "+name+" at "+org +" Training");
+		System.out.println("*******************************");
+		
+		scanner.close();
+
+	}
+
+}

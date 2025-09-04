@@ -1,0 +1,17 @@
+package oopsdemo3;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 4, 2025
+ * Time :3:02:07 PM
+ *project : projCoreJava
+ */
+
+public class OverLoadDemo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

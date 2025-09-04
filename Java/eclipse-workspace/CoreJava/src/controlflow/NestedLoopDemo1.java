@@ -1,0 +1,26 @@
+package controlflow;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 1, 2025
+ * Time :4:08:40 PM
+ *project : projCoreJava
+ */
+
+public class NestedLoopDemo1 {
+
+	public static void main(String[] args) {
+
+		for(int i =0; i<=5; i++) { //1   2    3   4    5
+			
+			for(int j =0; j<=i; j++) { // 1     1  2     1  2  3      1  2  3  4        1  2  3  4  5
+				
+				System.out.print(" * ");
+				
+			}
+			System.out.println();
+		}
+
+	}
+
+}

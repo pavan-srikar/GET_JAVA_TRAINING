@@ -1,0 +1,26 @@
+package oopsdemo1;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 3, 2025
+ * Time :12:24:26 PM
+ *project : projCoreJava
+ */
+
+public class Complex {
+	//Program to add 2 complex numbers- Real & Imaginary part
+
+
+	private double real;
+	private double imaginary;
+
+	// Generate Constructor using fields
+
+
+
+
+	public void display()
+	{
+		System.out.println("r"+this.real+" + i"+this.imaginary);
+	}
+}

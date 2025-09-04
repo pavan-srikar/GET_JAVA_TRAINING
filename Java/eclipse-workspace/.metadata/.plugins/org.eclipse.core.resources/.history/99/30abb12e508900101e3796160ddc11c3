@@ -1,0 +1,27 @@
+package oopsdemo2;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 4, 2025
+ * Time :10:54:57 AM
+ *project : projCoreJava
+ */
+
+public class GuestCustomer extends Customer {
+
+	//GuestCustomer does not have id
+
+	private String[] cart;
+	private int cartSize;
+	private static final int MAX_CART_SIZE=5;
+
+
+	public GuestCustomer(String name, String email) {
+		super(name, email);
+		this.cart = new String[MAX_CART_SIZE];
+		this.cartSize = 0;
+	}
+
+
+
+}

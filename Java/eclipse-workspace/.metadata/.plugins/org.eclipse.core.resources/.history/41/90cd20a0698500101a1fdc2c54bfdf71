@@ -1,0 +1,17 @@
+package basics;
+
+/**
+* Author :Jetty.Srikar
+* Date :Aug 30, 2025
+* Time :11:49:56 AM
+*project : projCoreJava
+*/
+
+public class StudentResult {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

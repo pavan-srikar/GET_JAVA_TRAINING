@@ -1,0 +1,22 @@
+package oopsdemo1;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 3, 2025
+ * Time :12:59:45 PM
+ *project : projCoreJava
+ */
+
+public class TimeTest {
+
+	public static void main(String[] args) {
+		Time t1=new Time(2, 10, 40);
+		Time t2=new Time(3, 10, 40);
+		
+		t1.add(t2);
+		System.out.println("The addition of 2 times is");
+		t1.display();
+
+	}
+
+}

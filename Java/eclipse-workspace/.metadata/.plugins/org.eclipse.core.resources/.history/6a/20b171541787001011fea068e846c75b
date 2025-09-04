@@ -1,0 +1,17 @@
+package controlflow;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 1, 2025
+ * Time :3:07:15 PM
+ *project : projCoreJava
+ */
+
+public class CountVowels {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
