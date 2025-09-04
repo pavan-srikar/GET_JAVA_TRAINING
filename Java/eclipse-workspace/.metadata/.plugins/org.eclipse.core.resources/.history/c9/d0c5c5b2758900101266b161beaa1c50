@@ -1,0 +1,17 @@
+package oopsdemo3;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 4, 2025
+ * Time :3:24:21 PM
+ *project : projCoreJava
+ */
+
+public class OverRideDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
