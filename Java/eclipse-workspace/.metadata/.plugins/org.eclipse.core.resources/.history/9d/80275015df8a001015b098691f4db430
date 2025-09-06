@@ -1,0 +1,61 @@
+package oopsdemo4;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 6, 2025
+ * Time :10:17:56 AM
+ *project : projCoreJava
+ */
+
+public class AirlinePassenger implements Flight{
+	private String name;
+    private String passportNumber;
+    private String email;
+    private String phone;
+    
+	public AirlinePassenger(String name, String passportNumber, String email, String phone) {
+		this.name = name;
+		this.passportNumber = passportNumber;
+		this.email = email;
+		this.phone = phone;
+	}
+
+	@Override
+	public String getFlightNumber() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getAirline() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getDeparture() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getArrival() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double getPrice() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void displayFlightDetails() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+    
+}

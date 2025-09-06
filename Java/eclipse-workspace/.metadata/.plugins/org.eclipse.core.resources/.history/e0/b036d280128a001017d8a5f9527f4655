@@ -1,0 +1,20 @@
+package oopsdemo3;
+
+import java.util.Scanner;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 5, 2025
+ * Time :10:06:29 AM
+ *project : projCoreJava
+ */
+
+public class MovieTicketBookingUpcasting {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		Ticket[] tickets= new Ticket[5];
+		int count=0;
+	}
+
+}

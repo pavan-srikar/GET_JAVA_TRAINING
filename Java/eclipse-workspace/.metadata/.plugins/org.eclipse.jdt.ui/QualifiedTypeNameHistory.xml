@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="oopsdemo1.Student"/>
     <fullyQualifiedTypeName name="oopsdemo1.Employee"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="java.lang.BootstrapMethodError"/>
     <fullyQualifiedTypeName name="oopsdemo1.Book"/>
     <fullyQualifiedTypeName name="oopsdemo1.Lamp"/>
@@ -24,7 +23,6 @@
     <fullyQualifiedTypeName name="oopsdemo1.Test"/>
     <fullyQualifiedTypeName name="oopsdemo2.Developer"/>
     <fullyQualifiedTypeName name="oopsdemo2.Employee"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="oopsdemo2.Passenger"/>
     <fullyQualifiedTypeName name="oopsdemo2.Account"/>
     <fullyQualifiedTypeName name="oopsdemo2.SavingsBank"/>
@@ -33,9 +31,24 @@
     <fullyQualifiedTypeName name="oopsdemo2.Director"/>
     <fullyQualifiedTypeName name="oopsdemo2.Doctor"/>
     <fullyQualifiedTypeName name="oopsdemo2.Customer"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="oopsdemo2.Publisher"/>
     <fullyQualifiedTypeName name="oopsdemo2.Payment"/>
     <fullyQualifiedTypeName name="oopsdemo2.TicketBooking"/>
+    <fullyQualifiedTypeName name="oopsdemo3.Account"/>
+    <fullyQualifiedTypeName name="oopsdemo3.Product"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="oopsdemo3.Ticket"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.CountDownLatch"/>
+    <fullyQualifiedTypeName name="oopsdemo3.Count"/>
+    <fullyQualifiedTypeName name="oopsdemo4.Trainee"/>
+    <fullyQualifiedTypeName name="oopsdemo4.HospitalStaff"/>
+    <fullyQualifiedTypeName name="oopsdemo4.AdminStaff"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="oopsdemo4.MyCalculator"/>
+    <fullyQualifiedTypeName name="oopsdemo4.Shape"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="oopsdemo4.Payment"/>
+    <fullyQualifiedTypeName name="oopsdemo4.Booking"/>
 </qualifiedTypeNameHistroy>

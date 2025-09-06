@@ -1,0 +1,23 @@
+package oopsdemo4;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 5, 2025
+ * Time :4:20:53 PM
+ *project : projCoreJava
+ */
+
+public class Nurse {
+	private int patientLoad;
+
+
+
+	System.out.println(getName() + " is caring for " + patientLoad + 
+			" patients in the " + getDepartment() + " department.");
+
+
+
+	public void administerMedication() {
+		System.out.println(getName() + " is administering medication to patients.");
+	}
+}

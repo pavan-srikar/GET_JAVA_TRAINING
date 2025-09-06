@@ -1,0 +1,17 @@
+package oopsdemo4;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 5, 2025
+ * Time :4:28:49 PM
+ *project : projCoreJava
+ */
+
+public class HospitalManagementSystem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package oopsdemo4;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 5, 2025
+ * Time :12:56:13 PM
+ *project : projCoreJava
+ */
+
+public class AbstractDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

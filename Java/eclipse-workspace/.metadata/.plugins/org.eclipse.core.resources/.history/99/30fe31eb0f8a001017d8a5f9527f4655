@@ -1,0 +1,17 @@
+package oopsdemo3;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 5, 2025
+ * Time :9:49:25 AM
+ *project : projCoreJava
+ */
+
+public class UpcastingDemp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

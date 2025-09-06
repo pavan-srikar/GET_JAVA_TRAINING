@@ -1,0 +1,13 @@
+package oopsdemo4;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 6, 2025
+ * Time :9:51:24 AM
+ *project : projCoreJava
+ */
+
+public interface Shape {
+	
+
+}

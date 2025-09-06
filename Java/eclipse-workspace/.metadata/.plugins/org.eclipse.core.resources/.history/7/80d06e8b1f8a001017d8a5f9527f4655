@@ -1,0 +1,17 @@
+package oopsdemo3;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 5, 2025
+ * Time :11:43:43 AM
+ *project : projCoreJava
+ */
+
+public class StaticDemo2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

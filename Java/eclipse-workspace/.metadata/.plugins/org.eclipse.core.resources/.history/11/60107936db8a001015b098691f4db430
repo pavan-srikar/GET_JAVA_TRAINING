@@ -1,0 +1,19 @@
+package oopsdemo4;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 6, 2025
+ * Time :10:06:57 AM
+ *project : projCoreJava
+ */
+
+public interface Flight {
+	//Flight Booking System using Interfaces
+
+	String getFlightNumber();
+		String getAirline();
+		String getDeparture();
+		String getArrival();
+		double getPrice();
+		void displayFlightDetails();
+}

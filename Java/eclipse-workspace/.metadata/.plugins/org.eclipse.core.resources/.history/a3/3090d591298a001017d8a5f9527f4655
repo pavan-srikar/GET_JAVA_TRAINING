@@ -1,0 +1,26 @@
+package oopsdemo4;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 5, 2025
+ * Time :12:53:36 PM
+ *project : projCoreJava
+ */
+
+public class Marks extends Trainee{
+	
+	private double marks;
+
+	public Marks(String name, String address, int number, double marks) {
+		super(name, address, number);
+		this.marks = marks;
+	}
+
+	@Override
+	public double calculateMarks() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+
+}
