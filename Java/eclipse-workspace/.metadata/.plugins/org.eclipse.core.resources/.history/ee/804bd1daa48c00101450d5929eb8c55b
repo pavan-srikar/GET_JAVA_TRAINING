@@ -1,0 +1,19 @@
+package collectionsdemo;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 8, 2025
+ * Time :4:39:33 PM
+ *project : projCoreJava
+ */
+
+public class BankingGenericsDemo {
+	
+	public static void main(String[] args) {
+		
+		//Using Generic Class for different types of account numbers
+		BankAccount<Integer> savAccount = new BankAccount<Integer>("Allice", 123456)
+		
+	}
+
+}

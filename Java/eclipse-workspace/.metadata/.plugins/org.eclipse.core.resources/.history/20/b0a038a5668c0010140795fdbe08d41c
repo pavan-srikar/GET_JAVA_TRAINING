@@ -1,0 +1,23 @@
+package assignments;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 8, 2025
+ * Time :9:07:55 AM
+ *project : projCoreJava
+ */
+
+public class SwapNumbersWithoutThird {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=10,b=20;
+
+		a = a + b;
+		b = a - b;
+		a = a - b;
+		System.out.println("aFTER sWAP: a= "+a+", b = "+b);
+
+		    }
+
+}

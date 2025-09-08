@@ -1,0 +1,12 @@
+package exceptiondemo;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 6, 2025
+ * Time :3:50:34 PM
+ *project : projCoreJava
+ */
+
+public class ThrowsExample {
+
+}

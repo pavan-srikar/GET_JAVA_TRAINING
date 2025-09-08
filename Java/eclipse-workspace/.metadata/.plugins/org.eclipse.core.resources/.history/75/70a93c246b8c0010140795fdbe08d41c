@@ -1,0 +1,17 @@
+package exceptiondemo;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 8, 2025
+ * Time :9:46:58 AM
+ *project : projCoreJava
+ */
+
+public class InsufficientFundsException {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

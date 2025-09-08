@@ -1,0 +1,20 @@
+package miscellaneous;
+
+import java.util.Date;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 8, 2025
+ * Time :2:29:56 PM
+ *project : projCoreJava
+ */
+
+public class DateFunctionsDemo {
+	public static void main(String[] args) {
+		
+		// Get the current date
+		Date curentDate=new Date();
+		System.out.println("Current Date: "+curentDate);
+		
+	}
+}

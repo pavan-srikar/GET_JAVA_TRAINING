@@ -1,0 +1,12 @@
+package exceptiondemo;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 8, 2025
+ * Time :9:57:01 AM
+ *project : projCoreJava
+ */
+
+public class UserDefinedExceptionsDemo {
+
+}

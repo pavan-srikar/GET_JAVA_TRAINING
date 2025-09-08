@@ -1,0 +1,17 @@
+package assignments;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 8, 2025
+ * Time :9:25:37 AM
+ *project : projCoreJava
+ */
+
+public class CalculateAge {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

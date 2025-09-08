@@ -1,0 +1,29 @@
+package exceptiondemo;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 8, 2025
+ * Time :9:46:58 AM
+ *project : projCoreJava
+ *
+ *user defined exception class
+ */
+
+public class InsufficientFundsException extends Exception{
+	
+	private static final long serialVersionUID = 1L;
+	private double amount;
+	
+	
+	public InsufficientFundsException(double amount) {
+		this.amount = amount;
+	}
+	
+	public double getAmount(){
+		return amount;
+	}
+	
+	
+	
+
+}

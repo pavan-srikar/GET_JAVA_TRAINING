@@ -1,0 +1,12 @@
+package com.coforge.training.oracleproj;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 8, 2025
+ * Time :10:32:30 AM
+ *project : projCoreJava
+ */
+
+public class Database {
+
+}

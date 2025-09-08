@@ -1,0 +1,17 @@
+package exceptiondemo;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 6, 2025
+ * Time :3:40:31 PM
+ *project : projCoreJava
+ */
+
+public class AtmWithdraw {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

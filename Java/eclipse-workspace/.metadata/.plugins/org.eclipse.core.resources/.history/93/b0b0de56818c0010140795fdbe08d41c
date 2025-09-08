@@ -1,0 +1,17 @@
+package stringsdemo;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 8, 2025
+ * Time :12:27:02 PM
+ *project : projCoreJava
+ */
+
+public class StringCreation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package miscellaneous;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 8, 2025
+ * Time :2:57:12 PM
+ *project : projCoreJava
+ */
+
+public class ObjectClassDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

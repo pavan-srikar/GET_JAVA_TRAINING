@@ -1,0 +1,7 @@
+package collectionsdemo;
+
+//Utility class with Generic Method
+
+public class BankingUtil {
+	
+}

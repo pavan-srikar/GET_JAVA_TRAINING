@@ -1,0 +1,12 @@
+package exceptiondemo;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 6, 2025
+ * Time :3:38:57 PM
+ *project : projCoreJava
+ */
+
+public class ATMWithdraw {
+
+}

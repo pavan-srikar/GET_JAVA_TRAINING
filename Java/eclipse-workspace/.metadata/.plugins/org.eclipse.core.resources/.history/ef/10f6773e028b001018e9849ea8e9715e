@@ -1,0 +1,17 @@
+package exceptiondemo;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 6, 2025
+ * Time :2:46:29 PM
+ *project : projCoreJava
+ */
+
+public class StringDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

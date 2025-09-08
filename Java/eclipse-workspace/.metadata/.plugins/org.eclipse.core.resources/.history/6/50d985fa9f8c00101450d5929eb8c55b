@@ -1,0 +1,17 @@
+package collectionsdemo;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 8, 2025
+ * Time :4:03:10 PM
+ *project : projCoreJava
+ */
+
+public class GenericClassDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

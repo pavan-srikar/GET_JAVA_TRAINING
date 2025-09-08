@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="controlflow.DoWhileDemo"/>
-    <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="oopsdemo1.Student"/>
-    <fullyQualifiedTypeName name="oopsdemo1.Employee"/>
     <fullyQualifiedTypeName name="java.lang.BootstrapMethodError"/>
     <fullyQualifiedTypeName name="oopsdemo1.Book"/>
     <fullyQualifiedTypeName name="oopsdemo1.Lamp"/>
@@ -45,10 +35,29 @@
     <fullyQualifiedTypeName name="oopsdemo4.Trainee"/>
     <fullyQualifiedTypeName name="oopsdemo4.HospitalStaff"/>
     <fullyQualifiedTypeName name="oopsdemo4.AdminStaff"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="oopsdemo4.MyCalculator"/>
     <fullyQualifiedTypeName name="oopsdemo4.Shape"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="oopsdemo4.Payment"/>
     <fullyQualifiedTypeName name="oopsdemo4.Booking"/>
+    <fullyQualifiedTypeName name="oopsdemo4.CollegeData"/>
+    <fullyQualifiedTypeName name="oopsdemo4.HostelData"/>
+    <fullyQualifiedTypeName name="oopsdemo4.StudentDetails"/>
+    <fullyQualifiedTypeName name="oopsdemo4.Exam"/>
+    <fullyQualifiedTypeName name="oopsdemo4.Result"/>
+    <fullyQualifiedTypeName name="onlineshopping.Mobile"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
+    <fullyQualifiedTypeName name="exceptiondemo.ShoppingInstallments"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="exceptiondemo.CheckingAccount"/>
+    <fullyQualifiedTypeName name="exceptiondemo.InSufficientFundsException"/>
+    <fullyQualifiedTypeName name="com.wipro.training.microsoftproj.OperatingSystem"/>
+    <fullyQualifiedTypeName name="com.coforge.training.oracleproj.Database"/>
+    <fullyQualifiedTypeName name="java.lang.Cloneable"/>
+    <fullyQualifiedTypeName name="collectionsdemo.Sample"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="collectionsdemo.BankAccount"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
 </qualifiedTypeNameHistroy>

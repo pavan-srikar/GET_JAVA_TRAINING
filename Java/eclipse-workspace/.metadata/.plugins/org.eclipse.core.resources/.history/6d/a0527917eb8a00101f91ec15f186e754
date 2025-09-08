@@ -1,0 +1,24 @@
+package onlineshopping;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 6, 2025
+ * Time :12:00:13 PM
+ *project : projCoreJava
+ */
+
+public abstract class Product {
+	// Abstract Class - Product
+	abstract class Product {
+	    String productName;
+	    double price;
+
+	    public Product(String productName, double price) {
+	        this.productName = productName;
+	        this.price = price;
+	    }
+
+	    public abstract void showProductDetails();
+	}
+
+}

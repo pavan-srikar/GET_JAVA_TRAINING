@@ -1,0 +1,26 @@
+package collectionsdemo;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 8, 2025
+ * Time :4:03:10 PM
+ *project : projCoreJava
+ */
+
+public class GenericClassDemo {
+
+	public static void main(String[] args) {
+		Sample<String> s1=new Sample<String>("jAVA gENERICS"); //object of Generics class for Type String
+		
+		System.out.println("Display from Generic class by passing String Object :"+s1.getData());
+		
+		Sample<Integer> s2=new Sample<Integer>(200); //Object of Generic class fpr Type Integer
+		
+		System.out.println("Display from Generic class by passing Integer Object :"+s2.getData());
+		
+		Sample<Double> s3=new Sample<Double>(555.50); //Object of Generic class fpr Type Integer
+		
+		System.out.println("Display from Generic class by passing Double Object :"+s3.getData());
+	}
+
+}

@@ -1,0 +1,17 @@
+package assignments;
+
+/**
+ * Author :Jetty.Srikar
+ * Date :Sep 8, 2025
+ * Time :9:07:55 AM
+ *project : projCoreJava
+ */
+
+public class SwapNumbersWithoutThird {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
