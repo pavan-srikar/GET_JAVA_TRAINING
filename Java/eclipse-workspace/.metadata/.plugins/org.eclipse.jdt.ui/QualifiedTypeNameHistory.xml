@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.BootstrapMethodError"/>
-    <fullyQualifiedTypeName name="oopsdemo1.Book"/>
-    <fullyQualifiedTypeName name="oopsdemo1.Lamp"/>
-    <fullyQualifiedTypeName name="oopsdemo1.Bicycle"/>
-    <fullyQualifiedTypeName name="oopsdemo1.Faculty"/>
-    <fullyQualifiedTypeName name="oopsdemo1.Candidate"/>
-    <fullyQualifiedTypeName name="oopsdemo1.Complex"/>
-    <fullyQualifiedTypeName name="oopsdemo1.Time"/>
-    <fullyQualifiedTypeName name="oopsdemo1.Person"/>
-    <fullyQualifiedTypeName name="java.security.DrbgParameters.NextBytes"/>
-    <fullyQualifiedTypeName name="oopsdemo1.Test"/>
     <fullyQualifiedTypeName name="oopsdemo2.Developer"/>
     <fullyQualifiedTypeName name="oopsdemo2.Employee"/>
     <fullyQualifiedTypeName name="oopsdemo2.Passenger"/>
@@ -27,8 +16,6 @@
     <fullyQualifiedTypeName name="oopsdemo3.Account"/>
     <fullyQualifiedTypeName name="oopsdemo3.Product"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="oopsdemo3.Ticket"/>
     <fullyQualifiedTypeName name="java.util.concurrent.CountDownLatch"/>
     <fullyQualifiedTypeName name="oopsdemo3.Count"/>
@@ -56,8 +43,21 @@
     <fullyQualifiedTypeName name="com.coforge.training.oracleproj.Database"/>
     <fullyQualifiedTypeName name="java.lang.Cloneable"/>
     <fullyQualifiedTypeName name="collectionsdemo.Sample"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="collectionsdemo.BankAccount"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="collectionsdemo.listdemo.PlayersList"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="mapsdemo.Student"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="mapsdemo.Developer"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 </qualifiedTypeNameHistroy>
