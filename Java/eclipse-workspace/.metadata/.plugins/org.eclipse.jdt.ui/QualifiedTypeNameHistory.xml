@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="oopsdemo2.Developer"/>
-    <fullyQualifiedTypeName name="oopsdemo2.Employee"/>
     <fullyQualifiedTypeName name="oopsdemo2.Passenger"/>
     <fullyQualifiedTypeName name="oopsdemo2.Account"/>
     <fullyQualifiedTypeName name="oopsdemo2.SavingsBank"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="mapsdemo.Developer"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
 </qualifiedTypeNameHistroy>

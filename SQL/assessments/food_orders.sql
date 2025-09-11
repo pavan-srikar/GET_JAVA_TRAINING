@@ -1,4 +1,4 @@
-
+customers
 -- Drop existing database if it exists
 DROP DATABASE IF EXISTS food_delivery_db;
 
@@ -167,7 +167,6 @@ HAVING total_orders > 1;
 
 --
 -- DML Operations
---
 
 -- Update: Change the location of a delivery person
 UPDATE DeliveryPerson
