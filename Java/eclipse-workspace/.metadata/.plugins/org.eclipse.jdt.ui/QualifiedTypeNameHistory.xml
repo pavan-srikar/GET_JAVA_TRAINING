@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="oopsdemo2.SavingsBank"/>
-    <fullyQualifiedTypeName name="oopsdemo2.Staff"/>
     <fullyQualifiedTypeName name="oopsdemo2.Manager"/>
     <fullyQualifiedTypeName name="oopsdemo2.Director"/>
     <fullyQualifiedTypeName name="oopsdemo2.Doctor"/>
@@ -41,7 +39,6 @@
     <fullyQualifiedTypeName name="collectionsdemo.Sample"/>
     <fullyQualifiedTypeName name="collectionsdemo.BankAccount"/>
     <fullyQualifiedTypeName name="java.lang.Long"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="collectionsdemo.listdemo.PlayersList"/>
@@ -59,5 +56,8 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="jdbcdemo.Candidates"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java8features.NumericTest"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
 </qualifiedTypeNameHistroy>
